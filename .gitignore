@@ -1,0 +1,6 @@
+
+#ignorando a pasta db
+db/
+
+#ignorando waveform
+.wvf

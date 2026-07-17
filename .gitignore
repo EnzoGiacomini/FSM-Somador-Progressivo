@@ -4,3 +4,6 @@ db/
 
 #ignorando waveform
 .wvf
+
+#ignorando .qsf
+.qsf

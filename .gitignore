@@ -1,9 +1,15 @@
 
-#ignorando a pasta db
+#ignorando pastas
 db/
+incremental_db/
 
-#ignorando waveform
+#ignorando arquivos
 .wvf
-
-#ignorando .qsf
 .qsf
+.sof
+.summary
+.rpt
+.pin
+.jdi
+.smsg
+.done

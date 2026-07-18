@@ -1,15 +1,15 @@
 
-#ignorando pastas
-db/
-incremental_db/
+# Quartus: bancos e saídas geradas
+/db/
+/incremental_db/
+/output_files/
 
-#ignorando arquivos
-.wvf
-.qsf
-.sof
-.summary
-.rpt
-.pin
-.jdi
-.smsg
-.done
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.sof
+*.pof
+*.qws

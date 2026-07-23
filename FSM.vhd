@@ -159,6 +159,12 @@ begin
             -- DataOut <- R4. Mantem o resultado ate reset.
             -- O resultado fica parado na saida ate receber outro reset.
             C(23 downto 22) <= "00";
+
+            -- Mantem Z = 1 no fim para deixar o LED verde aceso.
+            C(30 downto 28) <= "001"; --opA2 = R1 = 0
+            C(33 downto 31) <= "011"; --opB2 = R3 = 0
+            C(34) <= '1';              --0 - 0
+
             prox_estado <= S_fim;
     end case;
 end process;

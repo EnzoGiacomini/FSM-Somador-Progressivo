@@ -6,7 +6,7 @@
 - `Divfreq_1Hz.vhd`: divide o clock de 27 MHz para 1 Hz.
 - `conversor_display.vhd`: mostra valores hexadecimais nos displays.
 - `Somador-Progressivo.qsf`: define o FPGA e os pinos.
-- `Somador-Progressivo.sdc`: define o clock de entrada de 50 MHz.
+- `Somador-Progressivo.sdc`: define o clock de entrada de 27 MHz.
 
 ## Ligações
 
